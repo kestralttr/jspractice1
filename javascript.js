@@ -1,5 +1,5 @@
 
-function init() {
+(function() {
 
   let button = document.getElementById("update-button");
   let form = document.getElementById("form");
@@ -14,7 +14,10 @@ function init() {
     }
   });
 
+  return {
+    test: function() {
+      console.log("working");
+    }
+  };
 
-}
-
-init();
+}());
