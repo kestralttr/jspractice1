@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  background-size: cover;
+}
+
+#input-field {
+  margin-top:45vh;
+  width:80%;
+  height:30px;
+  font-size: 30px;
+  outline: none;
+}
+
+#update-button {
+  margin-top: 20px;
+  font-size: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid grey;
+  outline: none;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+#update-button:hover {
+  cursor: pointer;
+  background-color: #000;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
