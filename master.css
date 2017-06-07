@@ -1,6 +1,12 @@
+html {
+  height:100%;
+}
+
 body {
   text-align: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #input-field {
@@ -15,16 +21,19 @@ body {
   margin-top: 20px;
   font-size: 40px;
   border-radius: 10px;
-  background-color: #fff;
-  border: 1px solid grey;
+  background-color: Transparent;
+  border: 0px solid black;
   outline: none;
-  transition-property: background-color;
+  color: rgb(180,180,180);
+  text-shadow: 1px 1px 2px #000;
+  transition-property: color, text-shadow;
   transition-duration: 1s;
 }
 
 #update-button:hover {
   cursor: pointer;
-  background-color: #000;
-  transition-property: background-color;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  transition-property: color, text-shadow;
   transition-duration: 1s;
 }
