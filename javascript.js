@@ -10,6 +10,7 @@
     e.preventDefault();
     inputValue = document.getElementById("input-field").value;
     if(inputValue !== "") {
+      // resets background image with url from input field
       body.style.backgroundImage = "url(" + inputValue + ")";
       body.style.backgroundSize = "cover";
       document.getElementById("input-field").value = "";
